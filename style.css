@@ -16,3 +16,12 @@
         #mapLeaflet {
             height: 100%;
         }
+
+        /*
+        Open Layers 
+        */
+        #mapOpenLayers{
+            height: 400px;
+            width: 100%;
+            
+        }
