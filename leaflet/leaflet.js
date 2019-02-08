@@ -1,6 +1,5 @@
-function leaflet(element) {
-
-  if(element!="btnLeaflet") return; 
+function leaflet() {
+debugger; 
 
 
 
@@ -55,7 +54,7 @@ function leaflet(element) {
   // start the map in South-East England
 
   var iconustom = L.icon({
-    iconUrl: './content/images/pinTrainStation2.png',
+    iconUrl: '../content/images/pinTrainStation2.png',
     shadowUrl: '',
     iconSize: [70, 70], // size of the icon
     shadowSize: [50, 64], // size of the shadow
@@ -63,7 +62,7 @@ function leaflet(element) {
   });
 
   var iconMuseum = L.icon({
-    iconUrl: "./content/images/teste.png",
+    iconUrl: "../content/images/teste.png",
     shadowUrl: '',
     iconSize: [50, 50], // size of the icon
     shadowSize: [50, 64], // size of the shadow
@@ -123,6 +122,5 @@ function leaflet(element) {
   });
 
   var polyline = L.polyline(points, { color: '#058AC4' }).addTo(map);
-
-
 }
+leaflet();

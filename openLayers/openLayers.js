@@ -1,5 +1,3 @@
-function openLayers(element){
-if(element != 'btnOpenLayers') return; 
+function openLayers(){
 
-    console.log('Funciono')
 }

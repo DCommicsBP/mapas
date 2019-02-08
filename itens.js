@@ -17,7 +17,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/mercado.jpg", 
+            "url":"../content/images/estacoes/mercado.jpg", 
             "width":"", 
             "height":""
         }
@@ -40,7 +40,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/rodoviária.jpg", 
+            "url":"../content/images/estacoes/rodoviária.jpg", 
             "width":"", 
             "height":""
         }
@@ -63,7 +63,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/saoPedro.jpg", 
+            "url":"../content/images/estacoes/saoPedro.jpg", 
             "width":"", 
             "height":""
         }
@@ -86,7 +86,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/farrapos.JPG", 
+            "url":"../content/images/estacoes/farrapos.JPG", 
             "width":"", 
             "height":""
         }
@@ -109,7 +109,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/aeroporto.jpg", 
+            "url":"../content/images/estacoes/aeroporto.jpg", 
             "width":"", 
             "height":""
         }
@@ -131,7 +131,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/anchieta.jpg", 
+            "url":"../content/images/estacoes/anchieta.jpg", 
             "width":"", 
             "height":""
         }
@@ -149,7 +149,7 @@ var estacoes = [
             "2 Escadas Rolantes"
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/niteroi.JPG", 
+            "url":"../content/images/estacoes/niteroi.JPG", 
             "width":"", 
             "height":""
         }
@@ -172,7 +172,7 @@ var estacoes = [
             "Galeria Mario Quintana no túnel de acesso às plataformas", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/fatima.jpg", 
+            "url":"../content/images/estacoes/fatima.jpg", 
             "width":"", 
             "height":""
         }
@@ -192,7 +192,7 @@ var estacoes = [
             "1 rampa de acesso", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/canoas.jpg", 
+            "url":"../content/images/estacoes/canoas.jpg", 
             "width":"", 
             "height":""
         }
@@ -211,7 +211,7 @@ var estacoes = [
             "1 elevador"
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/mathiasVelho.jpg", 
+            "url":"../content/images/estacoes/mathiasVelho.jpg", 
             "width":"", 
             "height":""
         }
@@ -229,7 +229,7 @@ var estacoes = [
             "1 escada rolante", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/saoLuis.jpg", 
+            "url":"../content/images/estacoes/saoLuis.jpg", 
             "width":"", 
             "height":""
         }
@@ -246,7 +246,7 @@ var estacoes = [
            
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/petrobras.jpg", 
+            "url":"../content/images/estacoes/petrobras.jpg", 
             "width":"", 
             "height":""
         }
@@ -265,7 +265,7 @@ var estacoes = [
             "1 elevador de acesso", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/esteio.JPG", 
+            "url":"../content/images/estacoes/esteio.JPG", 
             "width":"", 
             "height":""
         }
@@ -284,7 +284,7 @@ var estacoes = [
             "1 elevador de acesso",
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/luizPasteur.jpg", 
+            "url":"../content/images/estacoes/luizPasteur.jpg", 
             "width":"", 
             "height":""
         }
@@ -304,7 +304,7 @@ var estacoes = [
             "Conjunto Comercial", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/sapucaia.jpg", 
+            "url":"../content/images/estacoes/sapucaia.jpg", 
             "width":"", 
             "height":""
         }
@@ -325,7 +325,7 @@ var estacoes = [
             "Centro Comercial", 
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/unisinos.jpg", 
+            "url":"../content/images/estacoes/unisinos.jpg", 
             "width":"", 
             "height":""
         }
@@ -347,7 +347,7 @@ var estacoes = [
             "Praça e espaço cultural",
         ], 
         "imagem":{
-            "url":"./content/images/estacoes/saoLeo.jpg", 
+            "url":"../content/images/estacoes/saoLeo.jpg", 
             "width":"", 
             "height":""
         }
@@ -366,7 +366,7 @@ var estacoes = [
             "1 elevador de acesso",
         ],  
         "imagem":{
-            "url":"./content/images/estacoes/rioDosSinos.jpg", 
+            "url":"../content/images/estacoes/rioDosSinos.jpg", 
             "width":"", 
             "height":""
         }
@@ -387,7 +387,7 @@ var estacoes = [
             "12 espaços comerciais"
         ],  
         "imagem":{
-            "url":"./content/images/estacoes/santoAfonso.jpg", 
+            "url":"../content/images/estacoes/santoAfonso.jpg", 
             "width":"", 
             "height":""
         }
@@ -407,7 +407,7 @@ var estacoes = [
             "2 escadas rolantes",
         ],  
         "imagem":{
-            "url":"./content/images/estacoes/industrial.JPG", 
+            "url":"../content/images/estacoes/industrial.JPG", 
             "width":"", 
             "height":""
         }
@@ -428,7 +428,7 @@ var estacoes = [
             "4 escadas rolantes"
         ],  
         "imagem":{
-            "url":"./content/images/estacoes/fenac.JPG", 
+            "url":"../content/images/estacoes/fenac.JPG", 
             "width":"", 
             "height":""
         }
@@ -450,7 +450,7 @@ var estacoes = [
             "Conexão ao futuro complexo de integração multimodal"
         ],  
         "imagem":{
-            "url":"./content/images/estacoes/fenac.JPG", 
+            "url":"../content/images/estacoes/fenac.JPG", 
             "width":"", 
             "height":""
         }
@@ -470,11 +470,11 @@ var pontosTuristicos = [
         "horario":"<b> Terça a Domingo:<b> 10h às 19h", 
         "cidade":"Porto Alegre - RS", 
         "imagens":[
-            "./content/images/pontos-turisticos/margs/margs1.jpeg",
-            "./content/images/pontos-turisticos/margs/margs2.jpeg",
-            "./content/images/pontos-turisticos/margs/margs3.jpeg",
-            "./content/images/pontos-turisticos/margs/margs4.jpeg",
-            "./content/images/pontos-turisticos/margs/margs5.jpeg"
+            "../content/images/pontos-turisticos/margs/margs1.jpeg",
+            "../content/images/pontos-turisticos/margs/margs2.jpeg",
+            "../content/images/pontos-turisticos/margs/margs3.jpeg",
+            "../content/images/pontos-turisticos/margs/margs4.jpeg",
+            "../content/images/pontos-turisticos/margs/margs5.jpeg"
         ]
     },
     {
@@ -489,10 +489,10 @@ var pontosTuristicos = [
         "horario":"<b> Terça a Sexta:<b/> 09h às 21h<br/><br/><b>Sábado e Domingo:<b/>12h as 21h", 
         "cidade":"Porto Alegre - RS", 
         "imagens":[
-            "./content/images/pontos-turisticos/casaMarioQuintana/marioQuintana1.jpeg",
-            "./content/images/pontos-turisticos/casaMarioQuintana/marioQuintana2.jpeg",
-            "./content/images/pontos-turisticos/casaMarioQuintana/marioQuintana3.jpeg",
-            "./content/images/pontos-turisticos/casaMarioQuintana/marioQuintana4.jpeg"
+            "../content/images/pontos-turisticos/casaMarioQuintana/marioQuintana1.jpeg",
+            "../content/images/pontos-turisticos/casaMarioQuintana/marioQuintana2.jpeg",
+            "../content/images/pontos-turisticos/casaMarioQuintana/marioQuintana3.jpeg",
+            "../content/images/pontos-turisticos/casaMarioQuintana/marioQuintana4.jpeg"
         ]
     }, 
     {
@@ -507,10 +507,10 @@ var pontosTuristicos = [
         "horario":"<b> Terça a Sábado:<b/> 10 h às 21h<br/><br/><b> Domingo:<b/>13h as 19h", 
         "cidade":"Porto Alegre - RS", 
         "imagens":[
-            "./content/images/pontos-turisticos/santanderCultural/santanderCultural1.jpeg",
-            "./content/images/pontos-turisticos/santanderCultural/santanderCultural2.jpeg",
-            "./content/images/pontos-turisticos/santanderCultural/santanderCultural3.jpeg",
-            "./content/images/pontos-turisticos/santanderCultural/santanderCultural4.jpeg",
+            "../content/images/pontos-turisticos/santanderCultural/santanderCultural1.jpeg",
+            "../content/images/pontos-turisticos/santanderCultural/santanderCultural2.jpeg",
+            "../content/images/pontos-turisticos/santanderCultural/santanderCultural3.jpeg",
+            "../content/images/pontos-turisticos/santanderCultural/santanderCultural4.jpeg",
         ]
     }, 
     

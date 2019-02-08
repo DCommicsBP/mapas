@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./bin/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="./bin/leaflet/leaflet.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../bin/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
 
     <title>Document</title>
 </head>
@@ -16,62 +15,43 @@
 
     <!--Btn Section -->
     <section class="container" style="position: relative; top:10px; margin: 50px; left: 25%">
-        <div class="row">
-            <button class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;">
-                Google Maps
-            </button>
-            <button class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;">
-                Leaflet
-            </button>
-            <button class="btn btn-secondary btn-map" id="btnOpenLayers" style="margin:10px;">
-                Open Layers
-            </button>
-        </div>
-    </section>
+            <div class="row">
+                <a class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;" href="#">
+                    Google Maps
+                </a>
+                <a class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;" href="../leaflet/leaflet.html">
+                    Leaflet
+                </a>
+                <a class="btn btn-secondary btn-map" id="btnOpenLayers" style="margin:10px;" href="../openLayers/openLayers.html">
+                    Open Layers
+                </a>
+            </div>
+        </section>
+    
+    
 
     <!--Maps Section-->
    
-    <div id="mapLeaflet" style="display: none"> </div>
-    <div id="map" style="display: none"></div>
-    <div id="mapOpenLayers" style="display: none;">teste</div>
+    <div id="map" style=""></div>
 
-    <!--Leaflet Modal Section-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-
-                <center>
-                    <div class="modal-body" id="mainContent">
-                </center>
-            </div>
-
-        </div>
-    </div>
+   
     <!--Data to render-->
-    <script src="./itens.js"></script>
-    <script src="./commonsArchives.js"></script>
+    <script src="../itens.js"></script>
+    <script src="../commonsArchives.js"></script>
 
 
     <!--Frameworks-->
-    <script src="./bin/jquery/jquery.js"></script>
-    <script src="./bin/popper/poppper.js"></script>
-    <script src="./bin/bootstrap/bootstrap.js"></script>
+    <script src="../bin/jquery/jquery.js"></script>
+    <script src="../bin/popper/poppper.js"></script>
+    <script src="../bin/bootstrap/bootstrap.js"></script>
 
-    <!--Leaflet-->
-    <script src="./bin/leaflet/leaflet-src.js"></script>
-    <script src="./bin/leaflet/leaflet.js"></script>
-
-    <!--Data and render data -->
-    <script src="./index.js"></script>
-    <script src="./leaflet.js"></script>
-    <script src="./googleMaps.js"></script>
-    <script src="./openLayers.js"></script>
-
+ 
     <!--Keys-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBl_UJ_MQziKKhB-GB2MIVrXrhUwlX6IyY&callback=initMap"
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBl_UJ_MQziKKhB-GB2MIVrXrhUwlX6IyY&callback=initMap"
         async defer></script>
+           <!--Data and render data -->
+    <script src="./googleMaps.js"></script>
+
 
 </body>
 

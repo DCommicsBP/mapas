@@ -1,23 +1,20 @@
 
 var map;
 function initMap(element) {
-    if(element!="btnGoogleMaps") return; 
-
-
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: -30.030194684981844, lng: -51.22252230705834 },
         zoom: 16
     });
 
     var iconPontosTuristicos = {
-        url: "./content/images/museum.png", // url
+        url: "../content/images/museum.png", // url
         scaledSize: new google.maps.Size(30, 30), // scaled size
         origin: new google.maps.Point(0, 0), // origin
         anchor: new google.maps.Point(0, 0) // anchor
     };
 
     var iconEstacoes = {
-        url: "./content/images/pinTrainStation2.png", // url
+        url: "../content/images/pinTrainStation2.png", // url
         scaledSize: new google.maps.Size(30, 30), // scaled size
         origin: new google.maps.Point(0, 0), // origin
         anchor: new google.maps.Point(1, 1) // anchor

@@ -1,7 +1,0 @@
-this.init = function () {
-
-
-
-}
-
-init(); 
