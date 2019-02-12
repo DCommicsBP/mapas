@@ -2,9 +2,8 @@
   Google Maps
   */
          #map {
-            height: 100%;
+            height: 70%;
         }
-
         /* Optional: Makes the sample page fill the window. */
         html,
         body {
@@ -12,14 +11,12 @@
             margin: 0;
             padding: 0;
         }
-
         #mapLeaflet {
-            height: 100%;
+            height: 70%;
         }
-
         /*
         Open Layers 
-        */
+s        */
         #mapOpenLayers{
             height: 400px;
             width: 100%;

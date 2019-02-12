@@ -15,42 +15,40 @@
 
     <!--Btn Section -->
     <section class="container" style="position: relative; top:10px; margin: 50px; left: 25%">
-            <div class="row">
-                <a class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;" href="#">
-                    Google Maps
-                </a>
-                <a class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;" href="../leaflet/leaflet.html">
-                    Leaflet
-                </a>
-                <a class="btn btn-secondary btn-map" id="btnOpenLayers" style="margin:10px;" href="../openLayers/openLayers.html">
-                    Open Layers
-                </a>
-            </div>
-        </section>
-    
-    
+        <div class="row">
+            <a class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;" href="#">
+                Google Maps
+            </a>
+            <a class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;" href="../leaflet/leaflet.html">
+                Leaflet
+            </a>
+        </div>
+    </section>
+        
+        <!--Maps Section-->
 
-    <!--Maps Section-->
-   
-    <div id="map" style=""></div>
+            <div id="map" style=""></div>
 
-   
-    <!--Data to render-->
-    <script src="../itens.js"></script>
-    <script src="../commonsArchives.js"></script>
+            <a class="btn btn-warning" style="position: relative; left:10%;top: 10px; background-color:#FF3414; color: whitesmoke"
+            href="../index.html">
+            <--- Voltar </a> 
+        
+            <!--Data to render-->
+            <script src="../itens.js"></script>
+            <script src="../commonsArchives.js"></script>
 
 
-    <!--Frameworks-->
-    <script src="../bin/jquery/jquery.js"></script>
-    <script src="../bin/popper/poppper.js"></script>
-    <script src="../bin/bootstrap/bootstrap.js"></script>
+            <!--Frameworks-->
+            <script src="../bin/jquery/jquery.js"></script>
+            <script src="../bin/popper/poppper.js"></script>
+            <script src="../bin/bootstrap/bootstrap.js"></script>
 
- 
-    <!--Keys-->
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBl_UJ_MQziKKhB-GB2MIVrXrhUwlX6IyY&callback=initMap"
-        async defer></script>
-           <!--Data and render data -->
-    <script src="./googleMaps.js"></script>
+
+            <!--Keys-->
+            <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBl_UJ_MQziKKhB-GB2MIVrXrhUwlX6IyY&callback=initMap"
+                async defer></script>
+            <!--Data and render data -->
+            <script src="./googleMaps.js"></script>
 
 
 </body>
