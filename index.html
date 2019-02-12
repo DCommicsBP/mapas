@@ -14,42 +14,33 @@
 
 <body>
 
-    <!--Btn Section -->
-    <section class="container" style="position: relative; top:10px; margin: 50px; left: 25%">
+    <div class="container" style="position: relative; left:25%">
         <div class="row">
-            <a class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;" href="../googleMaps/googleMaps.html">
-                Google Maps
-            </a>
-            <a class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;" href="./leaflet/leaflet.html">
-                Leaflet
-            </a>
-            <a class="btn btn-secondary btn-map" id="btnOpenLayers" style="margin:10px;" href="../openLayers/openLayers.html">
-                Open Layers
-            </a>
-        </div>
-    </section>
-
-    <!--Maps Section-->
-   
-    <div id="mapLeaflet" style="display: none"> </div>
-    <div id="map" style="display: none"></div>
-    <div id="mapOpenLayers" style="display: none;">teste</div>
-
-    <!--Leaflet Modal Section-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-
-                <center>
-                    <div class="modal-body" id="mainContent">
-                </center>
-            </div>
-
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <center>
+                            <a class="btn btn-info btn-map" id="btnGoogleMaps" style="margin:10px;" href="./googleMaps/googleMaps.html">
+                                Google Maps
+                            </a>
+                    </center>
+                    
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <center>
+                            <a class="btn btn-success btn-map" id="btnLeaflet" style="margin:10px;" href="./leaflet/leaflet.html">
+                                Leaflet
+                            </a>
+                    </center>
+                    
+                </div>
+              </div>
         </div>
     </div>
-    <!--Data to render-->
+     
+    <!--Btn Section -->
+   
     <script src="./itens.js"></script>
     <script src="./commonsArchives.js"></script>
 
